@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+  color: #635F5D;
+}
+
+#tooltip {
+  opacity: 0;
+  background-color: black;
+  position: absolute;
+  align-items: center;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+#x-axis text,
+#y-axis text {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+rect:hover {
+  cursor: default;
+}
+
+sup {
+  font-size: 0.5em;
+}
+
+#legend {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+#legend text {
+  font-size: 1.4em;
+  stroke-width: 1px;
+}
